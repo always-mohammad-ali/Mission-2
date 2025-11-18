@@ -38,7 +38,7 @@ objects.age = 4;
 console.log(objects);
 
 let student : {
-   readonly orga : "nsu";
+   readonly orga : string;
     name : string;
     id : number;
     sec : number;
@@ -49,4 +49,8 @@ let student : {
     sec : 9
 }
 
-console.log(student.orga);
+
+console.log(student);
+
+let studentt = { namee : "ali", id : 345};
+console.log(studentt)

@@ -16,7 +16,7 @@ console.log(square(5));
 const student = {
     name : "ALi",
     tuition : 0,
-    totalTuition(newTutition : number){
+   totalTuition (newTutition : number) :number {
          return this.tuition += newTutition;
     }
 
