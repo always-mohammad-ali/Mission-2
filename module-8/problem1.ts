@@ -31,5 +31,20 @@ formatValue(false);
 formatValue("hello sir ji")
 
 
+function user(input : any) : void{
+  if(typeof input == "string"){
+    console.log("hey man what is up");
+  }
+  else if(typeof input == "number"){
+    console.log("have you enter number huh!");
+  }
+  else if(typeof input == "boolean"){
+    console.log("okay i am assuming you are liar");
+  }
+}
+
+user("hi string");
+user(45);
+user(true);
 
 
