@@ -12,3 +12,16 @@ const books = [
 ]
 
 console.log(filterByRating(books));
+
+
+
+function filterByPrice(mobiles: {model : string, netprice : number, isAvailable : boolean}[]){
+    return mobiles.filter(mobile => mobile.netprice >= 100000 || mobile.isAvailable == true);
+}
+
+const mobile = [
+    {model : "samsung", netprice : 234000000, isAvailable : true},
+    {model : "apple", netprice : 4000, isAvailable : true}
+]
+
+console.log(filterByPrice(mobile));

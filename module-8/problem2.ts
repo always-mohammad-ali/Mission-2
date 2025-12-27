@@ -26,3 +26,4 @@ function getValueLength(value : string | (number | string)[]) : string {
 console.log(getValueLength("hello good morning, you have a nice looking eye"));
 console.log(getValueLength([45, 32, 5444]));
 console.log(getValueLength(["an", "up"]));
+console.log(getValueLength([3, 4, 1, 3,2,4,4]));
