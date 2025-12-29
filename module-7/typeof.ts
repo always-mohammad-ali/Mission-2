@@ -16,3 +16,5 @@ function move(animal : Bird | Fish){
 
 const parrot : Bird = {fly: () =>console.log("parrot is green")};
 const goldenFish : Fish = {swim: () => console.log("fish is nice")};
+
+console.log("hi");
